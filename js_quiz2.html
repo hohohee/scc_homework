@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>스파르타코딩클럽 | 자바스크립트 연습</title>
+    <script>
+        let num = 0;
+
+        function handleClick() {
+            num += 1;
+            let oddNumber = num % 2;
+            if (oddNumber == 1) {
+                alert('홀홀홀🎅');
+            } else {
+                alert('짝짝짝👏');
+            }
+            // 클릭에 따라 다른 얼럿을 띄웁니다.
+        }
+    </script>
+</head>
+
+<body>
+<button onclick="handleClick()">이 버튼을 눌러보세요</button>
+</body>
+
+</html>
